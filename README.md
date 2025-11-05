@@ -52,12 +52,12 @@ The script uses default insecure passwords defined within the script:
 Execute the following commands in the Arch Live Environment shell:
 
 ```bash
-# Download the script (adjust the path to your repository)
-git clone [https://github.com/](https://github.com/)<YOUR_USERNAME>/<YOUR_REPO-NAME>.git
-cd <YOUR_REPO-NAME>
+# Download the script
+git clone https://github.com/zKxma/Arch-Linux.git
+cd /Arch-Linux
 
 # Make the script executable
-chmod +x <install-script-file>.sh
+chmod +x install.sh
 
 # Run the script
-./<install-script-file>.sh
+./install.sh
